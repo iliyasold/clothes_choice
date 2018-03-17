@@ -14,6 +14,6 @@ class ThingsCollection
   end
 
   def for_temperature(t)
-    @things.select {|clothes| clothes.check_temperature?(t)}
+    @things.select { |clothes| clothes.check_temperature?(t) }
   end
 end
